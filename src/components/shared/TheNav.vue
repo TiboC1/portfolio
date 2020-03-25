@@ -24,7 +24,13 @@
 
 <style scoped>
     nav{
+        font-size: 2em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        nav{
         background-color:transparent !important;
         font-size: 1.3em;
+        }
     }
 </style>
