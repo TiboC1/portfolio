@@ -73,10 +73,6 @@ export default {
           name: "Symfony",
           id: 7,
         },
-        {
-          name: "SEO",
-          id: 8,
-        },
       ]
     };
   },

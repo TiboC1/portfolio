@@ -25,12 +25,18 @@
 <style scoped>
     nav{
         font-size: 2em;
+        min-height: 8vh;
+    }
+    .nav-link{
+        color: white !important;
+
     }
 
-    @media only screen and (min-width: 600px) {
+
+    @media only screen and (min-width: 991px) {
         nav{
         background-color:transparent !important;
-        font-size: 1.3em;
+        font-size: 1.5em;
         }
     }
 </style>
