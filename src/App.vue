@@ -1,42 +1,49 @@
 <template>
   <div id="app">
-    <TheNav></TheNav>
-    <transition name="fade">
-      <router-view />
-    </transition>
+    <AppHome></AppHome>
+    <AppNav></AppNav>
+    <AppAbout></AppAbout>
+    <AppPortfolio></AppPortfolio>
+    <AppContact></AppContact>
   </div>
 </template>
 
 <script>
-import TheNav from "@/components/shared/TheNav.vue";
+import AppNav from "@/components/shared/TheNav.vue";
+import AppHome from "@/components/views/Home.vue";
+import AppAbout from "@/components/views/About.vue";
+import AppPortfolio from "@/components/views/Portfolio.vue";
+import AppContact from "@/components/views/Contact.vue";
 
 export default {
   components: {
-    TheNav
+    AppNav,
+    AppHome,
+    AppAbout,
+    AppPortfolio,
+    AppContact
   }
-}
+};
 </script>
 
-
 <style>
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
+}
 #app {
-  height: 100vh;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Cormorant Upright", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: black;
 }
-
-.fade-enter-active,
-.fade-leave-active{
-  transition: opacity 0.3s;
+.empty {
+  height: 60px;
 }
-
-.fade-enter,
-.fade-leave-to{
-  opacity: 0;
+@media screen and (max-width: 980px) {
+  .empty {
+    height: 50px;
+  }
 }
-
 </style>
