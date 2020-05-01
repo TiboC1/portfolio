@@ -378,7 +378,6 @@
 .spinBack {
   animation: spinBack ease 15s infinite;
 }
-
 svg {
   height: 100px;
   fill: rgba(0, 0, 0, 0.6);
@@ -408,7 +407,6 @@ svg {
     transform: rotate(-360deg);
   }
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -420,7 +418,6 @@ svg {
     opacity: 0;
   }
 }
-
 #speed,
 #dynamic,
 #seo,
