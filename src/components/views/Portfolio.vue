@@ -1,13 +1,22 @@
 <template>
-  <div id="portfolio" class="container-fluid content-center">
-      <div class="empty"></div>
-    <hr>
-    <h2 class="my-5" style="font-weight: bold;">My Portfolio</h2>
-    <div class="row">
-      <div class=" card justify-content-center p-1 mx-auto">
+  <div id="portfolio" class="container-fluid ">
+    <div class="empty"></div>
+    <h2 class="my-5" style="font-weight: bold;" data-aos="fade-bottom">
+      My Portfolio
+    </h2>
+    <div class="row ">
+      <div class=" card justify-content-center p-1 m-auto" data-aos="fade-top">
         <p>Nothing to show here yet.</p>
-        <p>If you need a web developer for a project, look no further.</p>
-        <a href="#contact" class="btn, btn-primary p-1" style="background-color: #eec45c">Contact Me</a>
+        <p>
+          If you need help on a project scroll down or click the button to
+          contact me
+        </p>
+        <a
+          href="#contact"
+          class="btn, btn-primary px-3 py-2 mx-auto"
+          style="background-color: #eec45c"
+          >Contact Me</a
+        >
       </div>
     </div>
   </div>

@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <AppHome></AppHome>
-    <AppNav></AppNav>
-    <AppAbout></AppAbout>
-    <AppPortfolio></AppPortfolio>
-    <AppContact></AppContact>
+    <AppHome />
+    <AppNav />
+    <AppAbout />
+    <AppPortfolio />
+    <AppContact />
+    <AppFooter />
   </div>
 </template>
 
 <script>
 import AppNav from "@/components/shared/TheNav.vue";
+import AppFooter from "@/components/shared/TheFooter.vue";
 import AppHome from "@/components/views/Home.vue";
 import AppAbout from "@/components/views/About.vue";
 import AppPortfolio from "@/components/views/Portfolio.vue";
@@ -18,6 +20,7 @@ import AppContact from "@/components/views/Contact.vue";
 export default {
   components: {
     AppNav,
+    AppFooter,
     AppHome,
     AppAbout,
     AppPortfolio,
@@ -39,7 +42,7 @@ html {
   color: #2c3e50;
 }
 .empty {
-  height: 60px;
+  height: 70px;
 }
 @media screen and (max-width: 980px) {
   .empty {

@@ -98,9 +98,6 @@ svg #wheel {
   h2 {
     font-size: 1.8rem;
   }
-  .btn-light {
-    font-size: 1.2rem;
-  }
 }
 @media screen and (min-width: 416px) and (max-width: 900px) and (max-height: 767px) {
   .hero-icon {
@@ -114,9 +111,6 @@ svg #wheel {
   }
   h2 {
     font-size: 1.8rem;
-  }
-  .btn-light {
-    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 415px) and (max-width: 1025px) and (min-height: 767px) and (max-height: 1100px) {
