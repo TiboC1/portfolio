@@ -1,6 +1,6 @@
 <template>
   <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">
+    <div class="footer-copyright text-center pt-3">
       © 2020 Copyright: Thibaut M. Web Development
       <p>
         Icons made by

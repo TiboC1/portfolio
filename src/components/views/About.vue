@@ -14,7 +14,7 @@
         <h3 class="mx-auto h2" data-aos="fade-top" data-aos-delay="350">
           Who am I?
         </h3>
-        <p data-aos="fade-top">
+        <p class="px-2" data-aos="fade-top">
           I am a junior web-developer with a passion for making things work and
           look beautiful. I started learning in october 2019 after trying out
           many other career paths. Why settle for web-development you ask?

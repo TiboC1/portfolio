@@ -31,7 +31,7 @@ export default {
 
 <style>
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   scroll-behavior: smooth !important;
 }
 #app {
