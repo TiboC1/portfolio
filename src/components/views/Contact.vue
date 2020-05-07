@@ -7,17 +7,17 @@
         <form id="my-form" action="https://formspree.io/xyyngqpb" method="POST">
           <label data-aos="fade-left">
             Your name:
-            <input class="form-control" type="text" name="name" />
+            <input class="form-control" type="text" name="name" required/>
           </label>
           <br />
           <label data-aos="fade-right">
             Your email:
-            <input class="form-control" type="text" name="_replyto" />
+            <input class="form-control" type="text" name="_replyto" required/>
           </label>
           <br />
           <label data-aos="fade-left">
             Your subject:
-            <input class="form-control" type="text" name="subject" />
+            <input class="form-control" type="text" name="subject" required/>
           </label>
           <br />
           <label id="message" data-aos="fade-right">
@@ -26,6 +26,7 @@
               id="messageBox"
               class="form-control mx-auto"
               name="message"
+              required
             ></textarea>
           </label>
           <br />
@@ -107,7 +108,7 @@ function ajax(method, url, data, success, error) {
 }
 
 .contact-image {
-  height: 100vh;
+  min-height: 100vh;
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)),
     url("../../assets/contact-bg.jpg");

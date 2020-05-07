@@ -38,6 +38,7 @@
 nav {
   font-size: 1.5rem;
   font-weight: bold;
+  background-color: #ececec !important;
 }
 .active {
   color: #fdd947 !important;

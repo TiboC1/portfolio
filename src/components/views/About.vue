@@ -6,21 +6,33 @@
         class="h1 mb-5"
         style="font-weight: bold"
         data-aos="fade-bottom"
-        data-aos-delay="200"
+        data-aos-delay="400"
       >
         About Me
       </h2>
-      <div class="row intro">
-        <h3 class="mx-auto h2" data-aos="fade-top" data-aos-delay="350">
+      <div class="intro">
+        <h3 class="mx-auto h2" data-aos="fade-top" data-aos-delay="450">
           Who am I?
         </h3>
+        <p class="px-2" data-aos="fade-top" data-aos-delay="500">
+          I am a junior full-stack web developer currently based out of Belgium.
+          Thanks to a multicultural background, I speak Dutch, French, English,
+          and Norwegian. I studied in the U.S. where I received my Bachelor of
+          Arts in History and Theology. After moving back to Belgium, I began
+          teaching myself web development and decided to make it my career. I am
+          currently open to freelance work.
+        </p>
+      </div>
+      <div class="intro">
+        <h3 class="mx-auto h2" data-aos="fade-top" data-aos-delay="550">
+          Why web development?
+        </h3>
         <p class="px-2" data-aos="fade-top">
-          I am a junior web-developer with a passion for making things work and
-          look beautiful. I started learning in october 2019 after trying out
-          many other career paths. Why settle for web-development you ask?
-          Because it is a a perfect combination of making things functional and
-          being creative. I graduated with a bachelor of arts in history and
-          theology.
+          This job provides me with a creative outlet while also giving me an
+          opportunity to use my skills in logic and problem solving. Creating
+          something that is not only functional but also efficient and visually
+          pleasing gives me great satisfaction. Once I put my mind to something,
+          I can't rest until it's perfect.
         </p>
       </div>
     </div>
@@ -35,6 +47,7 @@
             data-aos="fade-right"
           >
             <svg
+              class="mb-2"
               version="1.1"
               id="Layer_1"
               xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +108,7 @@
             <h4 class="align-middle">Fast</h4>
             <p class="mb-0">
               I focus on speed optimization to ensure the user has a great
-              experience browsing the site by reducing page load times
+              experience browsing the site by reducing page load times.
             </p>
           </div>
           <div
@@ -109,6 +122,7 @@
             data-aos="fade-right"
           >
             <svg
+              class="mb-2"
               version="1.1"
               id="Layer_1"
               xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +235,7 @@
             <h4>Dynamic</h4>
             <p class="mb-0">
               I make sure to build a custom theme built specifically for each
-              project
+              project.
             </p>
           </div>
           <div
@@ -244,6 +258,7 @@
             data-aos="fade-left"
           >
             <svg
+              class="mb-2"
               version="1.1"
               id="Layer_1"
               xmlns="http://www.w3.org/2000/svg"
@@ -285,7 +300,7 @@
             <h4>Responsive</h4>
             <p class="mb-0">
               I always make sure to make the website look good on both desktops
-              and mobile devices
+              and mobile devices.
             </p>
           </div>
           <div
@@ -341,9 +356,38 @@
             <h4>SEO</h4>
             <p class="mb-0">
               I also aspire to create websites that rank well in search engine
-              listings to ensure a high amount of traffic
+              listings to ensure a high amount of traffic.
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="my-2" data-aos="fade-top">The technologies I use</h2>
+    <div class="row">
+      <div class="col">
+        <div class="list-item" data-aos="fade-left">
+          <p>HTML</p>
+        </div>
+        <div class="list-item" data-aos="fade-right">
+          <p>CSS</p>
+        </div>
+        <div class="list-item" data-aos="fade-left">
+          <p>Javascript</p>
+        </div>
+        <div class="list-item" data-aos="fade-right">
+          <p>Vue JS</p>
+        </div>
+        <div class="list-item" data-aos="fade-left">
+          <p>PHP</p>
+        </div>
+        <div class="list-item" data-aos="fade-right">
+          <p>WordPress</p>
+        </div>
+        <div class="list-item" data-aos="fade-left">
+          <p>Laravel</p>
+        </div>
+        <div class="list-item" data-aos="fade-right">
+          <p>Symfony</p>
         </div>
       </div>
     </div>
@@ -435,6 +479,7 @@ svg {
 .about * {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.6);
+  line-height: 1.25;
 }
 .about {
   font-size: 1.5rem;
